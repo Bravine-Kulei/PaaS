@@ -1,0 +1,23 @@
+{
+  "name": "paas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bravine-Kulei/PaaS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bravine-Kulei/PaaS/issues"
+  },
+  "homepage": "https://github.com/Bravine-Kulei/PaaS#readme"
+}
