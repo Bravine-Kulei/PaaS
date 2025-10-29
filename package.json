@@ -7,7 +7,14 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:migrate": "prisma migrate dev",
+    "db:generate": "prisma generate",
+    "db:studio": "prisma studio",
+    "db:seed": "tsx prisma/seed.ts"
   },
   "repository": {
     "type": "git",
@@ -19,5 +26,16 @@
   "bugs": {
     "url": "https://github.com/Bravine-Kulei/PaaS/issues"
   },
-  "homepage": "https://github.com/Bravine-Kulei/PaaS#readme"
+  "homepage": "https://github.com/Bravine-Kulei/PaaS#readme",
+  "dependencies": {
+    "@clerk/nextjs": "^6.34.1",
+    "@clerk/themes": "^2.4.30",
+    "@types/node": "^24.9.2",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "next": "^16.0.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "typescript": "^5.9.3"
+  }
 }
